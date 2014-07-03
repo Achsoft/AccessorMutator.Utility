@@ -195,7 +195,6 @@ trait AccessorMutatorTrait
         $setter = 'set' . $property;
         if (method_exists($this, $setter)) {
             $this->$setter(null);
-            return;
         }
     }
     
