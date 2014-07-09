@@ -11,7 +11,7 @@
     verbose="true">
     
     <testsuites>
-        <testsuite name="Achsoft.Component.AccessorMutator Testsuite">
+        <testsuite name="Achsoft.Utility.AccessorMutator Testsuite">
             <directory>tests/</directory>
         </testsuite>
     </testsuites>
