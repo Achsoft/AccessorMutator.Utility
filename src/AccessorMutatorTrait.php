@@ -44,7 +44,6 @@ use Achsoft\Utility\AccessorMutator\Exception\UnwriteablePropertyException;
  * @author Achmad F. Ibrahim <acfatah@gmail.com>
  * @package Achsoft\Utility\AccessorMutator
  * @version 0.1.0
- * @since 0.1.0
  */
 trait AccessorMutatorTrait
 {
@@ -61,7 +60,6 @@ trait AccessorMutatorTrait
      *      if getting write-only property
      * @throws \Achsoft\Utility\AccessorMutator\Exception\UnwriteablePropertyException
      *      if writing readonly-only property
-     * @since 0.1.0
      */
     public function __call($method, $arguments)
     {
@@ -107,7 +105,6 @@ trait AccessorMutatorTrait
      *      if getting undefined property
      * @throws \Achsoft\Utility\AccessorMutator\Exception\UnreadablePropertyException
      *      if getting write-only property
-     * @since 0.1.0
      */
     public function __get($property)
     {
@@ -134,7 +131,6 @@ trait AccessorMutatorTrait
      *
      * @param string $property Property name
      * @return bool Whether the property is set or not null
-     * @since 0.1.0
      */
     public function __isset($property)
     {
@@ -160,7 +156,6 @@ trait AccessorMutatorTrait
      *      if getting undefined property
      * @throws \Achsoft\Utility\AccessorMutator\Exception\UnwriteablePropertyException
      *      if writing readonly-only property
-     * @since 0.1.0
      */
     public function __set($property, $arguments)
     {
@@ -188,7 +183,6 @@ trait AccessorMutatorTrait
      * This method overrides the PHP magic method.
      *
      * @param string $property Property name
-     * @since 0.1.0
      */
     public function __unset($property)
     {
@@ -206,7 +200,6 @@ trait AccessorMutatorTrait
      * @param string $class Class name
      * @param string $name Name of the property to check
      * @return bool Whether the named property is public
-     * @since 0.1.0
      */
     final protected function isPublicProperty($class, $name)
     {

@@ -18,7 +18,6 @@ namespace Achsoft\Utility\AccessorMutator\Exception;
  * @author Achmad F. Ibrahim <acfatah@gmail.com>
  * @package Achsoft\Utility\AccessorMutator\Exception
  * @version 0.1.0
- * @since 0.1.0
  */
 class UndefinedPropertyException extends \RuntimeException
 {
